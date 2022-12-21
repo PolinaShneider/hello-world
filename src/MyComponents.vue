@@ -26,7 +26,7 @@ export default {
     return {
       hideCompleted: false,
       newTodo: "",
-      todos: [{ id: id++, text: "Привет я за****" }],
+      todos: [{ id: id++, text: "Все любят котиков" }],
       mainContent: "main-content",
     };
   },
@@ -61,8 +61,8 @@ export default {
   max-width: 350px;
 }
 
-.main-content form{
-	margin: 20px;
+.main-content form {
+  margin: 20px;
 }
 
 .main-content ul {
@@ -122,7 +122,7 @@ export default {
 }
 
 input {
-	cursor: pointer;
+  cursor: pointer;
   padding: 10px;
   font-size: 20px;
   border-radius: 5px;
